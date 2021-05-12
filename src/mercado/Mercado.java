@@ -24,14 +24,4 @@ public class Mercado {
         System.out.println("total: " + pd1.getValorTotal());
 
     }
-
-    public static void Verificar() {
-        if (Produto.getQuantidade() < Item.getQtdComprada()) {
-
-            System.out.println("quantidade invalida");
-        } else {
-            Produto.getQuantidade() - Item.getQtdComprada();
-        }
-
-    }
 }
